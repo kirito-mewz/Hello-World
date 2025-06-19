@@ -6,27 +6,50 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		66C410A42E02D58600AC18D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C410982E02D58600AC18D5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		66C4107F2E02D52900AC18D5 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C410982E02D58600AC18D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C410992E02D58600AC18D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		66C410912E02D52A00AC18D5 /* Exceptions for "Hello World" folder in "Hello World" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 66C4107E2E02D52900AC18D5 /* Hello World */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		66C410812E02D52900AC18D5 /* Hello World */ = {
+		662813272E04044800E3F507 /* delegates */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				66C410912E02D52A00AC18D5 /* Exceptions for "Hello World" folder in "Hello World" target */,
-			);
-			path = "Hello World";
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		66C410A82E02D59900AC18D5 /* controllers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		66C410A92E02D5AC00AC18D5 /* views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = views;
+			sourceTree = "<group>";
+		};
+		66C410AA2E02D5B200AC18D5 /* storyboards */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		66C410AB2E02D5C300AC18D5 /* doddle area */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "doddle area";
+			sourceTree = "<group>";
+		};
+		66C410AC2E02D5DF00AC18D5 /* helpers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		66C410AD2E02D5FB00AC18D5 /* models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +68,7 @@
 		66C410762E02D52900AC18D5 = {
 			isa = PBXGroup;
 			children = (
-				66C410812E02D52900AC18D5 /* Hello World */,
+				66C410A02E02D58600AC18D5 /* Hello World */,
 				66C410802E02D52900AC18D5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +79,22 @@
 				66C4107F2E02D52900AC18D5 /* Hello World.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		66C410A02E02D58600AC18D5 /* Hello World */ = {
+			isa = PBXGroup;
+			children = (
+				66C410992E02D58600AC18D5 /* Info.plist */,
+				66C410982E02D58600AC18D5 /* Assets.xcassets */,
+				66C410A82E02D59900AC18D5 /* controllers */,
+				662813272E04044800E3F507 /* delegates */,
+				66C410AB2E02D5C300AC18D5 /* doddle area */,
+				66C410AC2E02D5DF00AC18D5 /* helpers */,
+				66C410AD2E02D5FB00AC18D5 /* models */,
+				66C410AA2E02D5B200AC18D5 /* storyboards */,
+				66C410A92E02D5AC00AC18D5 /* views */,
+			);
+			path = "Hello World";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,7 +113,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				66C410812E02D52900AC18D5 /* Hello World */,
+				662813272E04044800E3F507 /* delegates */,
+				66C410A82E02D59900AC18D5 /* controllers */,
+				66C410A92E02D5AC00AC18D5 /* views */,
+				66C410AA2E02D5B200AC18D5 /* storyboards */,
+				66C410AB2E02D5C300AC18D5 /* doddle area */,
+				66C410AC2E02D5DF00AC18D5 /* helpers */,
+				66C410AD2E02D5FB00AC18D5 /* models */,
 			);
 			name = "Hello World";
 			packageProductDependencies = (
@@ -122,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66C410A42E02D58600AC18D5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
